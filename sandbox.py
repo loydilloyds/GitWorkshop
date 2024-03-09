@@ -7,13 +7,7 @@ def isPalindrome(num : str) -> bool :
     return True
 
 x = 585
-
 numBase2 = bin(x)[2:] 
-
-print(numBase2)
-
-print(isPalindrome(numBase2))
-print(isPalindrome(str(x)))
 
 sum = 0
 for i in range(1, 1000000):
@@ -21,5 +15,3 @@ for i in range(1, 1000000):
         sum = sum + i
 
 print(sum)
-
-x = pow(5, 5)
